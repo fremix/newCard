@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet');
+
+.container-seccion {
+background-color: rgba(0, 0, 0, 0.514);
+text-align: center;
+}
+
+.avatar {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.name {
+    padding-bottom: 15px;
+    
+}
+
+/* Aqui inicia la seccion de about me*/
+.about-me {
+  background-color: aqua;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 5px;
+  border-bottom: 10px;
+  border-radius: 5px;
+  color: rgb(118, 102, 205);
+  margin-bottom: 5px;
+  
+}
+.about-me h1 {
+  margin: 1px 2px 1px 2px;
+}
+
+.about-me p {
+  margin: auto;
+}
+
+.feis {
+  display: grid;
+  grid-template-columns: 60px 400px;
+  align-items: center;
+  background-color: rgb(12, 103, 177);
+  border-radius: 5px;
+  color: white;
+}
+
+.feis__texto {
+  margin: 0px;
+}
+.feis__imagen {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+p {
+  margin: 5px 2px;
+}
+
+.linkedin {
+  display: grid;
+  grid-template-columns: 60px 400px;
+  align-items: center;
+  background-color: rgb(12, 103, 177);
+  border-radius: 5px;
+  color: white;
+  margin-top: 2px;
+}
+.linkedin__texto {
+  margin: 0px;
+}
+.linkedin__imagen {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.instagram {
+  display: grid;
+  grid-template-columns: 60px 400px;
+  align-items: center;
+  background-color: rgba(158, 5, 64, 0.842);
+  border-radius: 5px;
+  color: white;
+  margin-top: 2px;
+}
+.instagram__texto {
+  margin: 0px;
+}
+.instagram__imagen {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.twitter {
+  display: grid;
+  grid-template-columns: 60px 400px;
+  align-items: center;
+  background-color: rgba(59, 91, 236, 0.842);
+  border-radius: 5px;
+  color: white;
+  margin-top: 2px;
+}
+.twitter__texto {
+  margin: 0px;
+}
+.twitter__imagen {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
